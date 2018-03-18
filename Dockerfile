@@ -1,5 +1,3 @@
-# docker build -f Dockerfile.Base -t azpay/php7.0-fpm-phalcon:latest .
-
 FROM php:7.0-fpm
 STOPSIGNAL WINCH
 
