@@ -1,6 +1,5 @@
 FROM php:7.0-fpm
 STOPSIGNAL WINCH
-
 RUN \
     apt-get update && \
     apt-get install -y libmemcached-dev git vim locate ntp ntpdate nginx supervisor cron libxml2-dev libwebp-dev libjpeg62-turbo-dev libpng12-dev libfreetype6-dev libmcrypt-dev libssl-dev libgmp-dev libicu-dev && \
